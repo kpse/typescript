@@ -1,0 +1,3 @@
+class Main {
+    name="main"
+}
