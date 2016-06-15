@@ -9,6 +9,6 @@
 
     },
     "files": [
-        "main.ts"
+        "src/main.ts"
     ]
 }
