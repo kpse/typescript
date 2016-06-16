@@ -1,3 +1,3 @@
-class Person {
+export class Person {
     name = "John"
 }

@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "rootDir": "./src",
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
@@ -8,7 +9,7 @@
         "noEmitOnError": true
 
     },
-    "files": [
-        "src/main.ts"
+    "exclude": [
+        "node_modules"
     ]
 }

@@ -1,9 +1,9 @@
 import './app';
 
-class Main {
-    constructor() {
-        console.log("working");
-    }
+class App {
+  constructor() {
+    console.log("working");
+  }
 }
 
-new Main();
+new App();
