@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="https://npmcdn.com/systemjs@0.19.26/dist/system.js"></script>
+    <script src="https://npmcdn.com/systemjs@0.19.31/dist/system.js"></script>
 </head>
 <body>
 <script>
@@ -12,10 +12,14 @@
             "dist": {
                 "defaultExtension" : "js",
                 "main" : "main"
+            },
+            "rxjs": {
+                "defaultExtension" : "js"
             }
         },
         map: {
-            "lodash": "https://npmcdn.com/lodash@4.13.1"
+            "lodash": "https://npmcdn.com/lodash@4.13.1",
+            "rxjs": "node_modules/rxjs"
         }
     });
     System.import("dist");
