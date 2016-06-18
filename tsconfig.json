@@ -6,7 +6,8 @@
         "noImplicitAny": false,
         "sourceMap": false,
         "outDir": "./dist",
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        "experimentalDecorators": true
 
     },
     "exclude": [

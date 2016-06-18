@@ -7,6 +7,8 @@ import * as _ from 'lodash';
 //
 // Observable.interval(1000).subscribe( x => console.log(x));
 
+import {Person2} from './person2'
+
 class App implements SocialNetwork {
   title = "Suoqin";
   getUsers():Person[] {
@@ -15,3 +17,5 @@ class App implements SocialNetwork {
 }
 
 console.log('the main app returns an array? ', _.isArray(new App().getUsers()));
+
+console.log( new Person2());
