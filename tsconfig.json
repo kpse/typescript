@@ -7,11 +7,13 @@
         "sourceMap": false,
         "outDir": "./dist",
         "noEmitOnError": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "declaration": true
 
     },
     "exclude": [
         "node_modules",
+        "dist",
         "typings/main.d.ts",
         "typings/main"
     ]
